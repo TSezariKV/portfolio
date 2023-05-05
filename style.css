@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #312E3C;
+    color: #fff;
+    font-family: Roboto;
+}
+.hero {
+    margin: 0 auto;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 70px;
+}
+.hero p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #cfcfcf;
+    width: 80%;
+    margin: 0 auto;
+}
+.sam {
+    border-radius: 0 0 25px 25px;
+}
+.view-more-button {
+    padding: 25px 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background: #7E55F2;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 500;
+}
+.view-more-button i {
+    margin: 0;
+}
+.view-more-button:hover {
+    transform: scale(1.025);
+    transition: .3s;
+}
+.view-more-button a {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #7E55F2;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.experience {
+    background: rgb(130,87,173);
+    background: linear-gradient(90deg, rgba(130,87,173,1) 0%, rgba(153,96,152,1) 50%, rgba(130,87,173,1) 100%);
+}
+.card {
+    background: rgb(45,43,54);
+    background: linear-gradient(90deg, rgba(45,43,54,1) 0%, rgba(58,55,73,1) 50%, rgba(45,43,54,1) 100%);
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    width: 65%;
+    padding: 110px 70px;
+    border-radius: 30px;
+    margin-bottom: 200px!important;
+}
+.card-body {
+    width: 100%;
+    height: 100%;
+}
+.card h1 {
+    font-size: 50px;
+}
+.card p {
+    font-size: 25px;
+    color: #cfcfcf;
+    width: 80%;
+}
+.second-card-p {
+    position: relative;
+    left: 100px;
+}
+.contact {
+    padding: 150px 0!important;
+}
+.contact-info {
+    color: #cfcfcf;
+    font-size: 25px;
+}
+.copyrights {
+    font-size: 25px;
+}
+.socials a:hover {
+    color: red;
+    transition: .3s;
+}
+
+@media screen and (max-width: 992px) {
+    .card p {
+        margin: 0 auto;
+    }
+}

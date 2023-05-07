@@ -113,6 +113,18 @@ a:hover {
     .card p {
         margin: 0 auto;
     }
+    .card {
+        padding: 11px 7px;
+    }
+    .card img {
+        margin-bottom: 50px;
+    }
+    .card .first-card {
+        flex-direction: column-reverse;
+    }
+    .third-card {
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -127,5 +139,21 @@ a:hover {
 @media screen and (max-width: 511px) {
     h1 {
         font-size: 50px!important;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .card {
+        padding: 0;
+    }
+    .card img {
+        margin-bottom: 20px;
+    }
+    .card h1 {
+        font-size: 30px!important;
+        margin: 15px 0!important;
+    }
+    .card p {
+        font-size: 20px!important;
     }
 }

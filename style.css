@@ -15,6 +15,15 @@ body {
     color: #fff;
     font-family: Roboto;
 }
+
+.navbar {
+    background-color: #7E55F2!important;
+}
+.nav-item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .hero {
     margin: 0 auto;
     text-align: center;
@@ -52,11 +61,11 @@ body {
 .view-more-button a {
     color: #fff;
 }
-a {
+.hero a {
     text-decoration: none;
     color: #7E55F2;
 }
-a:hover {
+.hero a:hover {
     text-decoration: underline;
 }
 
@@ -103,6 +112,9 @@ a:hover {
 .copyrights {
     font-size: 25px;
 }
+.socials a {
+    color: #7E55F2;
+}
 .socials a:hover {
     color: red;
     transition: .3s;
@@ -137,6 +149,9 @@ a:hover {
     }
     .card {
         max-width: 80%;
+    }
+    h1 {
+        font-size: 40px!important;
     }
 }
 

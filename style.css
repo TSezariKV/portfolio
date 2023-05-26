@@ -17,11 +17,18 @@ body {
 }
 
 .navbar {
-    background-color: #7E55F2!important;
+    background: rgb(126,85,242);
+background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50%, rgba(126,85,242,1) 100%);
 }
 .nav-item {
     margin-right: 20px;
     margin-left: 20px;
+}
+.nav-socials a {
+    color: #000;
+}
+.nav-socials a:hover {
+    color: #312E3C;
 }
 
 .hero {
@@ -120,6 +127,12 @@ body {
     transition: .3s;
 }
 
+
+@media screen and (min-width: 576px) {
+    .first-nav-item {
+        margin-left: 0;
+    }
+}
 
 @media screen and (max-width: 1200px) {
     .card p {

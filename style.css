@@ -25,10 +25,10 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
     margin-left: 20px;
 }
 .nav-socials a {
-    color: #000;
+    color: #fff;
 }
 .nav-socials a:hover {
-    color: #312E3C;
+    color: #848484;
 }
 
 .hero {
@@ -165,6 +165,13 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
     }
     h1 {
         font-size: 40px!important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-socials {
+        margin-left: 20px;
+        margin-top: 10px;
     }
 }
 

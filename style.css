@@ -18,7 +18,7 @@ body {
 
 .navbar {
     background: rgb(126,85,242);
-background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50%, rgba(126,85,242,1) 100%);
+    background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50%, rgba(126,85,242,1) 100%);
 }
 .nav-item {
     margin-right: 20px;
@@ -36,7 +36,7 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
     text-align: center;
 }
 .hero h1 {
-    font-size: 70px;
+    font-size: 55px;
 }
 .hero p {
     font-size: 22px;
@@ -46,11 +46,13 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
     margin: 0 auto;
 }
 .sam {
+    width: 70%;
+    margin: 0 auto;
     border-radius: 0 0 25px 25px;
 }
 .view-more-button {
-    padding: 25px 40px;
-    font-size: 25px;
+    padding: 25px 30px;
+    font-size: 22px;
     border: none;
     border-radius: 20px;
     background: #7E55F2;
@@ -86,41 +88,67 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
     margin: 0 auto;
     color: #fff;
     max-width: 65%;
-    padding: 110px 70px;
     border-radius: 30px;
     margin-bottom: 75px!important;
 }
 .card-body {
-    width: 100%;
-    height: 100%;
+    padding: 0;
+}
+.card img {
+    width: 100%!important;
+    margin: 0;
+}
+.first-card img,
+.third-card img {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.second-card img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 .card h1 {
-    font-size: 50px!important;
+    font-size: 40px!important;
 }
 .card p {
-    font-size: 25px;
+    font-size: 20px;
     color: #cfcfcf;
-    width: 80%;
+    width: 85%;
 }
-.second-card-p {
-    margin-left: 100px;
+.about-me p {
+    font-size: 25px;
 }
+.samp-div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.text-div {
+    padding: 55px;
+}
+.card button i {
+    font-size: 15px;
+    margin: 5px;
+}
+
 .contact {
-    padding: 150px 0 0 0!important;
+    padding: 80px 0 0 0!important;
 }
 .contact h1 {
-    font-size: 55px;
+    font-size: 40px;
     width: 90%;
 }
 .contact-info {
     color: #cfcfcf;
-    font-size: 25px;
+    font-size: 20px;
 }
 .copyrights {
-    font-size: 25px;
+    font-size: 15px;
+    color: #cfcfcf;
 }
 .socials a {
     color: #7E55F2;
+    font-size: 30px;
 }
 .socials a:hover {
     color: red;
@@ -142,13 +170,18 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
         font-size: 30px!important;
     }
     .card {
-        padding: 11px 7px;
+        max-width: 60%;
     }
     .card img {
-        margin-bottom: 50px;
+        border-radius: 0;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
     }
     .card .first-card {
         flex-direction: column-reverse;
+    }
+    .samp-div {
+        display: block;
     }
     .third-card {
         flex-direction: column-reverse;
@@ -161,10 +194,16 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
         width: 100%;
     }
     .card {
-        max-width: 80%;
+        max-width: 70%;
     }
     h1 {
         font-size: 40px!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sam {
+        width: 100%;
     }
 }
 
@@ -172,6 +211,10 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
     .nav-socials {
         margin-left: 20px;
         margin-top: 10px;
+    }
+    .card {
+        max-width: 90%;
+        min-height: 100px!important;
     }
 }
 
@@ -202,5 +245,8 @@ background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50
     }
     .card p {
         font-size: 18px!important;
+    }
+    .copyrights {
+        font-size: 15px!important;
     }
 }

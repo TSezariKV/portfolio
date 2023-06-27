@@ -146,6 +146,13 @@ body {
     font-size: 15px;
     color: #cfcfcf;
 }
+.invisible-text {
+    color: #312E3C;
+    display: flex;
+}
+.invisible-text p {
+    margin-right: 10px;
+}
 .socials a {
     color: #7E55F2;
     font-size: 30px;

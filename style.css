@@ -153,6 +153,11 @@ body {
 .invisible-text p {
     margin-right: 10px;
 }
+.invisible-text h1 {
+    font-size: 2px!important;
+    width: 20px;
+    height: 10px;
+}
 .socials a {
     color: #7E55F2;
     font-size: 30px;

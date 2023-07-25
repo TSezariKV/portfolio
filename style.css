@@ -17,8 +17,7 @@ body {
 }
 
 .navbar {
-    background: rgb(126,85,242);
-    background: linear-gradient(180deg, rgba(126,85,242,1) 0%, rgba(125,84,242,1) 50%, rgba(126,85,242,1) 100%);
+    background: rgba(127, 85, 242, 0.3);
 }
 .nav-item {
     margin-right: 20px;
@@ -82,7 +81,7 @@ body {
     background: rgb(130,87,173);
     background: linear-gradient(90deg, rgba(130,87,173,1) 0%, rgba(153,96,152,1) 50%, rgba(130,87,173,1) 100%);
 }
-.card {
+.experience .card {
     background: rgb(45,43,54);
     background: linear-gradient(90deg, rgba(45,43,54,1) 0%, rgba(58,55,73,1) 50%, rgba(45,43,54,1) 100%);
     margin: 0 auto;
@@ -91,10 +90,10 @@ body {
     border-radius: 30px;
     margin-bottom: 75px!important;
 }
-.card-body {
+.experience .card-body {
     padding: 0;
 }
-.card img {
+.experience .card img {
     width: 100%!important;
     margin: 0;
 }
@@ -107,10 +106,10 @@ body {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-.card h1 {
+.experience .card h1 {
     font-size: 40px!important;
 }
-.card p {
+.experience .card p {
     font-size: 20px;
     color: #cfcfcf;
     width: 85%;
@@ -126,7 +125,7 @@ body {
 .text-div {
     padding: 55px;
 }
-.card button i {
+.experience .card button i {
     font-size: 15px;
     margin: 5px;
 }
@@ -167,6 +166,58 @@ body {
     transition: .3s;
 }
 
+.modal {
+    color: rgba(172, 185, 189, 0.877);
+}
+.modal-header {
+    border-bottom: 1px solid rgba(172, 185, 189, 0.384);
+}
+.modal-title {
+    font-size: 30px!important;
+    color: #fff;
+}
+.modal-body {
+    font-weight: 100!important;
+    font-size: 20px;
+}
+.modal-body .card {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+.modal-body .card:hover {
+    transform: scale(1.02);
+}
+.modal-footer {
+    border-top: 1px solid rgba(172, 185, 189, 0.384);
+}
+.modal .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal .card {
+    max-width: 350px;
+}
+.modal span {
+    color: #7E55F2;
+}
+.modal .txt {
+    font-size: 25px;
+    color: #fff;
+}
+.btn-close {
+    color: #fff!important;
+}
+.modal-footer button {
+    background: #7E55F2;
+    border: none;
+}
+.modal-footer button:hover {
+    background: #9670ff;
+}
+
 
 @media screen and (min-width: 576px) {
     .first-nav-item {
@@ -175,13 +226,13 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    .card p {
+    .experience .card p {
         margin: 0 auto;
     }
-    .card h1 {
+    .experience .card h1 {
         font-size: 30px!important;
     }
-    .card {
+    .experience .card {
         max-width: 60%;
     }
     .card img {
@@ -189,7 +240,7 @@ body {
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
     }
-    .card .first-card {
+    .experience .card .first-card {
         flex-direction: column-reverse;
     }
     .samp-div {
@@ -201,11 +252,11 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    .card p {
+    .experience .card p {
         margin: 0 auto;
         width: 100%;
     }
-    .card {
+    .experience .card {
         max-width: 70%;
     }
     h1 {
@@ -224,7 +275,7 @@ body {
         margin-left: 20px;
         margin-top: 10px;
     }
-    .card {
+    .experience .card {
         max-width: 90%;
         min-height: 100px!important;
     }
@@ -244,18 +295,18 @@ body {
 }
 
 @media screen and (max-width: 554px) {
-    .card {
+    .experience .card {
         padding: 0;
     }
-    .card img {
+    .experience .card img {
         margin-bottom: 20px;
     }
-    .card h1 {
+    .experience .card h1 {
         font-size: 25px!important;
         margin: 15px auto!important;
         width: 80%;
     }
-    .card p {
+    .experience .card p {
         font-size: 18px!important;
     }
     .copyrights {

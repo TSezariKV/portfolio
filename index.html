@@ -61,7 +61,7 @@
                         TSezari Kvelashvili / K0ll3x
                     </h1>
                     <p class="lead py-3">
-                        Web Developer, Video Editor, Roblox Game Developer, SA-MP Server Scripter, <a href="https://www.youtube.com/@cez3xx/" target="_blank">YouTuber</a> and <a href="https://www.tiktok.com/@k0ll3x" target="_blank">TikToker</a> with over 20k subscribers and 10k followers!
+                        Web Developer, Video Editor, Roblox Game Developer, SA-MP Server Scripter, <a href="https://www.youtube.com/@cez3x/" target="_blank">YouTuber</a> and <a href="https://www.tiktok.com/@k0ll3x" target="_blank">TikToker</a> with over 20k subscribers and 10k followers!
                     </p>
                 </div>
                 <button class="view-more-button">
@@ -82,10 +82,54 @@
                         <p class="lead mb-4">
                             I have been working as a Web Developer for more than 6 months as a Front-End Web Developer.
                         </p>
-                        <button class="btn btn-light" onClick="location.href = '/components/web-dev.html'">See More <i class="bi bi-arrow-up-right"></i></button>
+                         <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#webDevModal">
+                            See More <i class="bi bi-arrow-up-right"></i>
+                        </button>
                     </div>
                     <div class="col-xl image">
                         <img src="assets/img/web-dev.png" class="img-fluid" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Card 1 Modal -->
+        <div class="modal fade" id="webDevModal" tabindex="-1" aria-labelledby="webDevModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="webDevModalLabel">Web Developer</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <span>Skill:</span> Front-End Web Developer <br />
+                            <span>Experience:</span> 6+ Months <br />
+                            <p class="txt">Projects:</p>
+                            <div class="row">
+                                <div class="card mb-3 col-lg-6 proj proj1">
+                                    <img src="./assets/img/project1.png" class="card-img-top" alt="...">
+                                    <div class="card-title">News Homepage</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 proj proj2">
+                                    <img src="./assets/img/rockpaperscissors.png" class="card-img-top" alt="...">
+                                    <div class="card-title">Rock Paper Scissors</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 proj proj3">
+                                    <img src="./assets/img/calculator.png" class="card-img-top" alt="...">
+                                    <div class="card-title">Calculator</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 proj proj4">
+                                    <img src="./assets/img/memorygame.png" class="card-img-top" alt="...">
+                                    <div class="card-title">Memory Game</div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -103,7 +147,43 @@
                         <p class="lead mb-4 second-card-p">
                             I have been editing videos for over 5 years now. I've been mostly using CapCut, Premiere Pro & After Effects.
                         </p>
-                        <button class="btn btn-light" onClick="location.href = '/components/editing.html'">See More <i class="bi bi-arrow-up-right"></i></button>
+                         <!-- Button trigger modal -->
+                         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#vidEditModal">
+                            See More <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 Modal -->
+        <div class="modal fade" id="vidEditModal" tabindex="-1" aria-labelledby="vidEditModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="vidEditModalLabel">Video Editor</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <span>Skill:</span> Video Editing <br />
+                            <span>Experience:</span> 5+ Years <br />
+                            <p class="txt">Tools:</p>
+                            <div class="row">
+                                <div class="card mb-3 col-lg-6">
+                                    <img src="./assets/img/premierepro.jpg" class="card-img-top" alt="...">
+                                    <div class="card-title">Premiere Pro</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6">
+                                    <img src="./assets/img/capcut.png" class="card-img-top" alt="...">
+                                    <div class="card-title">CapCut</div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -118,10 +198,73 @@
                         <p class="lead mb-4">
                             I have worked as a content creator for BloxMoon, RBLXWild, RBXRise, BloxTrade, RBXHeist and more.
                         </p>
-                        <button class="btn btn-light" onClick="location.href = '/components/content-creator.html'">See More <i class="bi bi-arrow-up-right"></i></button>
+                         <!-- Button trigger modal -->
+                         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contentCreatorModal">
+                            See More <i class="bi bi-arrow-up-right"></i>
+                        </button>
                     </div>
                     <div class="col-xl image">
                         <img src="assets/img/content.jpg" class="img-fluid" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 Modal -->
+        <div class="modal fade" id="contentCreatorModal" tabindex="-1" aria-labelledby="contentCreatorModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="contentCreatorModalLabel">Content Creator</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <span>Skill:</span> Content Creator <br />
+                            <span>Experience:</span> 2+ Years <br />
+                            <p class="txt">Socials:</p>
+                            <div class="row">
+                                <div class="card mb-3 col-lg-6 youtube soc">
+                                    <img src="./assets/img/youtube.jpg" class="card-img-top" alt="...">
+                                    <div class="card-title">YouTube</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 tiktok soc">
+                                    <img src="./assets/img/tiktok.png" class="card-img-top" alt="...">
+                                    <div class="card-title">TikTok</div>
+                                </div>
+                            </div>
+                            <p class="mb-5 txt">I have worked as a content creator for:</p>
+                            <div class="row">
+                                <div class="card mb-3 col-lg-6 bloxmoon sponsor">
+                                    <img src="./assets/img/bloxmoon.png" class="card-img-top" alt="...">
+                                    <div class="card-title">BloxMoon</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 bloxtrade sponsor">
+                                    <img src="./assets/img/bloxtrade.png" class="card-img-top" alt="...">
+                                    <div class="card-title">Blox.Trade</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 adurite sponsor">
+                                    <img src="./assets/img/adurite.jpg" class="card-img-top" alt="...">
+                                    <div class="card-title">Adurite</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 roplace sponsor">
+                                    <img src="./assets/img/roplace.jpg" class="card-img-top" alt="...">
+                                    <div class="card-title">Ro.Place</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 rbxgold sponsor">
+                                    <img src="./assets/img/rbxgold.jpg" class="card-img-top" alt="...">
+                                    <div class="card-title">RBXGold</div>
+                                </div>
+                                <div class="card mb-3 col-lg-6 rbxrise sponsor">
+                                    <img src="./assets/img/rbxrise.jpg" class="card-img-top" alt="...">
+                                    <div class="card-title">RBXRise</div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -134,7 +277,7 @@
                     <div class="col-xl text-center text-xl-start text-div">
                         <h1 class="mb-5">About Me</h1>
                         <p class="lead mb-3">
-                            I'm 18 years old currently learning Front-End Web Development, I make YouTube / TikTok content as a side hustle and do SA-MP Server Scripting and Roblox Game Development as a hobby.
+                            I'm 18 years old currently learning Front-End Web Development, I make YouTube / TikTok content, edit videos and do SA-MP Server Scripting and Roblox Game Development as a hobby.
                         </p>
                     </div>
                 </div>
@@ -151,7 +294,7 @@
             <div class="socials mb-5">
                 <a href="https://www.facebook.com/profile.php?id=100087233827694" target="_blank" class="me-2"><i class="bi bi-facebook"></i></a>
                 <a href="https://github.com/TSezariKV" target="_blank" class="mx-2"><i class="bi bi-github"></i></a>
-                <a href="https://www.youtube.com/@cez3xx/" target="_blank" class="mx-2"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.youtube.com/@cez3x/" target="_blank" class="mx-2"><i class="bi bi-youtube"></i></a>
                 <a href="https://www.tiktok.com/@k0ll3x" target="_blank" class="ms-2"><i class="bi bi-tiktok"></i></a>
             </div>
             <p class="lead copyrights">&copy; 2023 TSezari Kvelashvili</p>

@@ -62,7 +62,6 @@ sponsors.forEach(sponsor => sponsor.addEventListener('click', function() {
 }))
 
 socials.forEach(social => social.addEventListener('click', function() {
-    console.log('fuck you')
     if(social.classList.contains('youtube')) {
         window.open(
             'https://www.youtube.com/@cez3x',
@@ -70,7 +69,7 @@ socials.forEach(social => social.addEventListener('click', function() {
         )
     } else if(social.classList.contains('tiktok')) {
         window.open(
-            'https://www.tiktok.com/@k0ll3x',
+            'https://www.tiktok.com/',
             '_blank'
         )
     }

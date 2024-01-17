@@ -11,12 +11,33 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #312E3C;
+    /* background: #312E3C; */
+    background: rgb(130,87,173);
+    background: linear-gradient(90deg, rgba(130,87,173,1) 0%, rgba(153,96,152,1) 50%, rgba(130,87,173,1) 100%);
     color: #fff;
     font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 50px;
+    text-align: center;
 }
 
-.navbar {
+@media screen and (max-width: 850px){
+    body {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body {
+        font-size: 20px;
+    }
+}
+
+/* .navbar {
     background: rgba(127, 85, 242, 0.3);
 }
 .nav-item {
@@ -312,4 +333,4 @@ body {
     .copyrights {
         font-size: 15px!important;
     }
-}
+} */
